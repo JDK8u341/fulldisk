@@ -34,7 +34,7 @@ pip install psutil tqdm
 ### 基本语法
 
 ```bash
-python disk_filler.py [选项]
+python fulldisk.py [选项]
 ```
 
 ### 命令行选项
