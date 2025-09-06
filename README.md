@@ -1,6 +1,6 @@
 # fulldisk
 简单的CLI填盘工具
-# 磁盘填盘工具 (Disk Filler Tool)
+# 磁盘填盘工具 (fulldisk)
 
 这个Python脚本是一个高效的磁盘填盘工具，可以在Windows和Linux系统上快速填充磁盘空间。它支持多种填充模式，并可选择隐藏生成的文件（需要管理员权限）。
 
@@ -50,22 +50,22 @@ python disk_filler.py [选项]
 
 1. **单文件模式（默认）**：
    ```bash
-   python disk_filler.py -p D:\ --size 2G
+   python fulldisk.py -p D:\ --size 2G
    ```
 
 2. **追加模式（隐藏文件）**：
    ```bash
-   python disk_filler.py -p /home/user -m a --size full --hide True
+   python fulldisk.py -p /home/user -m a --size full --hide True
    ```
 
 3. **碎片模式**：
    ```bash
-   python disk_filler.py -p /tmp --size 500M -m s
+   python fulldisk.py -p /tmp --size 500M -m s
    ```
 
 4. **使用全部剩余空间**：
    ```bash
-   python disk_filler.py -p C:\ --size full
+   python fulldisk.py -p C:\ --size full
    ```
 
 ## 注意事项
